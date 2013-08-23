@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ updater_screen.xml
+  ~
+  ~ Copyright (c) 2013. Martin Burkhard, CSCM Cooperation Systems Center Munich,
+  ~ at the Institute for Software Technology, Bundeswehr University Munich.
+  ~
+  ~ This program is connected to the research project SI-Screen funded by the European
+  ~ AAL Joint Programme (AAL-2009-2-088), the German Ministry of Education and Research
+  ~ and German VDI/VDE IT (BMBF – FKZ: 16SV3982). The joint project was coordinated by
+  ~ the Innovationsmanufaktur GmbH and carried out by ten international partners.
+  ~ For more information, see the project website http://www.si-screen.eu.
+  ~
+  ~ This program and the accompanying materials are made available under the
+  ~ terms of the Eclipse Public License v1.0 which accompanies this distribution,
+  ~ and is available at http://www.eclipse.org/legal/epl-v10.html
+  ~
+  ~  Project: Android-APK-Updater
+  ~   Author: Martin Burkhard
+  ~     Date: 8/23/13 7:40 AM
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="@drawable/updater_background">
+    <ImageView android:src="@drawable/updater_logo"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="200dp"
+               android:paddingBottom="30dp"
+            />
+    <TextView
+            android:id="@+id/setup_text"
+            android:gravity="center"
+            android:textSize="20dip"
+            android:textColor="#000000"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apk_download"
+            android:paddingBottom="10dp"/>
+    <ProgressBar
+            android:id="@+id/progressbar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:max="100"
+            android:progress="0"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_header_relativelayout"
+            android:progressDrawable="@drawable/updater_progress_bar"
+            android:visibility="invisible"
+            />
+    <TextView
+            android:id="@+id/progress_text"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textSize="20dip"
+            android:textColor="#000000"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apk_progress"
+            android:paddingBottom="10dp"/>
+
+    <Button
+            android:id="@+id/setup_button"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apk_download_button" />
+</LinearLayout>

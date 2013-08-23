@@ -1,0 +1,33 @@
+<!--
+  ~ errors.xml
+  ~
+  ~ Copyright (c) 2013. Martin Burkhard, CSCM Cooperation Systems Center Munich,
+  ~ at the Institute for Software Technology, Bundeswehr University Munich.
+  ~
+  ~ This program is connected to the research project SI-Screen funded by the European
+  ~ AAL Joint Programme (AAL-2009-2-088), the German Ministry of Education and Research
+  ~ and German VDI/VDE IT (BMBF – FKZ: 16SV3982). The joint project was coordinated by
+  ~ the Innovationsmanufaktur GmbH and carried out by ten international partners.
+  ~ For more information, see the project website http://www.si-screen.eu.
+  ~
+  ~ This program and the accompanying materials are made available under the
+  ~ terms of the Eclipse Public License v1.0 which accompanies this distribution,
+  ~ and is available at http://www.eclipse.org/legal/epl-v10.html
+  ~
+  ~  Project: Android-APK-Updater
+  ~   Author: Martin Burkhard
+  ~     Date: 8/23/13 7:40 AM
+  -->
+
+<resources>
+    <string name="error_subject">Android APK Updater: Update Fehler</string>
+    <string name="error_message">während eines Updates ist ein Fehler aufgetreten:</string>
+    <string name="error_000_init">Fehler während der Initialisierung. Wir entschuldigen uns für die Unannehmlichkeiten. Fehler Nr.: #000</string>
+    <string name="error_010_checksum">Fehler bei der Suche nach Updates. Wir entschuldigen uns für die Unannehmlichkeiten. Fehler Nr.: #010</string>
+    <string name="error_020_filesize">Fehler bei der Suche nach Updates. Wir entschuldigen uns für die Unannehmlichkeiten. Fehler Nr.: #020</string>
+    <string name="error_030_versionfile">Fehler bei der Suche nach Updates. Wir entschuldigen uns für die Unannehmlichkeiten. Fehler Nr.: #030</string>
+    <string name="error_040_apkfile">Das Update konnte nicht heruntergeladen werden. Wir entschuldigen uns für die Unannehmlichkeiten. Fehler Nr.: #040</string>
+    <string name="error_041_apkfile">Das Update konnte nicht heruntergeladen werden. Wir entschuldigen uns für die Unannehmlichkeiten. Fehler Nr.: #041</string>
+    <string name="error_050_installapk">Das Installieren des Updates ist fehlgeschlagen. Wir entschuldigen uns für die Unannehmlichkeiten. Fehler Nr.: #050</string>
+    <string name="error_900_connection">Keine Verbindung zum Update Server. Bitte prüfen Sie Ihre Internetverbindung.</string>
+</resources>

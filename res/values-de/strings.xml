@@ -1,0 +1,40 @@
+<!--
+  ~ strings.xml
+  ~
+  ~ Copyright (c) 2013. Martin Burkhard, CSCM Cooperation Systems Center Munich,
+  ~ at the Institute for Software Technology, Bundeswehr University Munich.
+  ~
+  ~ This program is connected to the research project SI-Screen funded by the European
+  ~ AAL Joint Programme (AAL-2009-2-088), the German Ministry of Education and Research
+  ~ and German VDI/VDE IT (BMBF – FKZ: 16SV3982). The joint project was coordinated by
+  ~ the Innovationsmanufaktur GmbH and carried out by ten international partners.
+  ~ For more information, see the project website http://www.si-screen.eu.
+  ~
+  ~ This program and the accompanying materials are made available under the
+  ~ terms of the Eclipse Public License v1.0 which accompanies this distribution,
+  ~ and is available at http://www.eclipse.org/legal/epl-v10.html
+  ~
+  ~  Project: Android-APK-Updater
+  ~   Author: Martin Burkhard
+  ~     Date: 8/23/13 7:40 AM
+  -->
+
+<resources>
+    <string name="app_name">Android APK Updater</string>
+    <string name="apk_check">Bitte drücken Sie den Knopf, um nach neuen Updates zu suchen.</string>
+    <string name="apk_check_button">Suche nach Updates</string>
+    <string name="apk_check_progress">Suche nach Updates ...</string>
+    <string name="apk_check_noupdates">Keine neuen Updates verfügbar. Sie haben die neueste App installiert.</string>
+    <string name="apk_download">Ein neues Update ist verfügbar. Bitte drücken Sie den Knopf für den Download.</string>
+    <string name="apk_download_button">Download App</string>
+    <string name="apk_downloading">Lade neueste App vom Server &#8230;</string>
+    <string name="apk_progress">Empfangen: 0,00% (0 Bytes)</string>
+    <string name="apk_progress_format_received">Empfangen:</string>
+    <string name="apk_download_done">Der Download des Updates war erfolgreich. Bitte drücken Sie den Knopf für die Installation der App.</string>
+    <string name="apk_download_integrity">Keine Integritätsübereinstimmung. Bitte probieren Sie es später noch einmal und setzen Sie Martin Burkhard in Kenntnis.</string>
+    <string name="apk_setup_done">Die Installation des Updates war erfolgreich. Sie können den Updater jetzt beenden.</string>
+    <string name="apk_setup_button">App installieren</string>
+    <string name="exit_button">Beenden</string>
+    <string name="retry_button">Erneut versuchen</string>
+    <string name="send_error_button">Sende Fehlerbericht</string>
+</resources>
